@@ -3,9 +3,9 @@ Implementing Rule Design Pattern with card payment example
 
 Summary
 
-This is a demonstration on how we can use Rule Design pattern to validate a payment dynamically by different rules. This example implenents a service contract which has 2 operations as below:
+This is a demonstration on how we can use Rule Design pattern to validate a payment dynamically by different rules. This example implements a service contract which has 2 operations as below:
 
-    WhatsYourId: 008ab27c-36b2-43e5-91d5-edbd1e5b564b. This operation should return the unique ID poiting to a Merchant Identification Number.
+    WhatsYourId: 008ab27c-36b2-43e5-91d5-edbd1e5b564b. This operation should return the unique ID pointing to a Merchant Identification Number.
 
     MakePayment: should validate the card and amount and return a Guid if successful and null if information is not valid
 
